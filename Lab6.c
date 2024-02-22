@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int search(int numbers[], int low, int high, int value) 
-{
+{	
+
+
+	if(value < low || value > high)
 	return -1;
 }
 
